@@ -7,8 +7,6 @@ shuffle($array);
 do {
     echo $array[$i];
     $i++;
-}
-
-while($array[$i] != "Chega")
+} while($array[$i] != "Chega");
 
 ?>
